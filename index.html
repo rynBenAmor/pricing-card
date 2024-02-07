@@ -4,7 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <style>
+        body{
+  
+}body {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Set body height to viewport height */
+}
+
+.card{
+  
+  max-width:550px;
+  width:100%;
+  height:470PX;
+  border-radius:7px;
+  box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding-left:0;
+  display:flex;
+  flex-direction:column;
+}
+/*toplane*/
+.toplane{
+  width:100%;
+  height:50%;
+  margin-top:1rem;
+  padding-left:2rem;
+  display:flex;
+  flex-direction:column;
+  word-wrap: break-word;/*very intriguing*/
+white-space: pre-wrap;
+word-break: break-word;
+}
+.toplane h2{
+  color:hsl(179, 62%, 43%);
+  
+  
+}
+.toplane h4{
+  font-size:17px;
+  color:hsl(71, 73%, 54%);
+  
+}
+.toplane p{
+  color: hsl(218, 22%, 67%);
+  margin-top:-10PX;
+  
+  max-width:100%;
+  word-wrap: break-word;
+ 
+ flex-shrink: 1;
+}
+
+.botlane{
+  height:50%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.bottom-left{
+  
+  width:50%;
+  flex:1;
+  background-color: hsl(179, 62%, 43%);
+  padding-left:2rem;
+  padding-top:1REM;
+}
+.bottom-left span,
+.bottom-left h4, .bottom-right h4{
+  color:hsl(204, 43%, 93%);
+ 
+  
+}
+span{font-size:2rem;}
+.bottom-left p{color:hsl(204, 30%, 90%);}
+
+.button-container{
+  display:flex;
+  justify-content:center;
+  
+}
+button{
+  border-radius:10px;
+  max-width:200px;
+  width:100%;
+  height:45px;
+  background-color:hsl(71, 73%, 54%);
+  color:white;
+  border:0px;
+  margin-right:2rem;
+}
+button:hover{
+  cursor:pointer;
+  transform:scale(1.06);
+  opacity:0.8;
+}
+
+.bottom-right{
+  width:50%;
+  flex:1;
+  background-color:hsl(179, 62%, 53%);
+  line-height:1.2rem;
+  padding-left:2rem;
+  padding-top:1REM;
+}
+.bottom-right p{color:hsl(204, 43%, 93%);}
+    </style>
 </head>
 <body>
     <div class="card">
